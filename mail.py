@@ -6,7 +6,7 @@ s.starttls()
 # Authentication 
 s.login("sender's email", "pass") 
 # message to be sent 
-message = "Hey Developer, Finally we got the model trained. "
+message = "Model accuracy is above 80%"
 # sending the mail 
 s.sendmail("sender mail", "reciever mail", message) 
 # terminating the session 
