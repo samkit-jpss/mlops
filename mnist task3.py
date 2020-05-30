@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 from __future__ import print_function
 import keras
 from keras.datasets import mnist
@@ -81,10 +75,3 @@ f = open("accuracy.txt","w+")
 f.write(str(accuracy_train_model))
 f.close()
 os.system("mv /accuracy.txt /mycode")
-
-
-# In[ ]:
-
-
-
-
